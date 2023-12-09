@@ -1,6 +1,8 @@
 import { Container, Row, Col,ListGroup } from 'react-bootstrap';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import Image from './assets/images/cater.png';
+import '../component/catergory.css';
+
 
 const YourComponent = () => {
   return (
