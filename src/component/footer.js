@@ -47,11 +47,11 @@ const App = () => {
           <h6 style={{ fontFamily: 'EB Garamond, serif',color: 'white' , fontSize: '20px' }}>Recent Posts</h6>
           <img src={Image} alt=''/>
         </div>
-        <div style={{backgroundColor : 'black'}}>
-          <p></p>
-        </div>
+        
       </div>
-
+      <div style={{backgroundColor : 'black'}}>
+          <p>hgh</p>
+        </div>
     </div>
   );
 };
