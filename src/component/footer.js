@@ -50,7 +50,7 @@ const App = () => {
         
       </div>
       <div style={{backgroundColor : 'black'}}>
-          <p>hgh</p>
+          <p><i class="bi bi-c-circle"></i></p>
         </div>
     </div>
   );
