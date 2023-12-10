@@ -4,13 +4,15 @@ import Navbar from './component/navbar';
 import ContactUs from './component/contactus';
 import Footer from './component/footer';
 import Category from './component/category';
+import AboutUs from './component/AboutUs';
 function App() {
   return (
     <div >
-     <Navbar/>
-     <ContactUs/>
-     <Footer/>
-     <Category/>
+      <Navbar />
+      <ContactUs />
+      <Footer />
+      <Category />
+      <AboutUs />
     </div>
   );
 }
