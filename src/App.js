@@ -2,15 +2,15 @@ import logo from './logo.svg';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import Navbar from './component/navbar';
 import ContactUs from './component/contactus';
-import Footer from './component/footer';
 import Category from './component/category';
 import AboutUs from './component/AboutUs';
+import HomePage from './component/HomePage';
 function App() {
   return (
     <div >
       <Navbar />
+      <HomePage />
       <ContactUs />
-      <Footer />
       <Category />
       <AboutUs />
     </div>
