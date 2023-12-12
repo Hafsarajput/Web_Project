@@ -9,13 +9,19 @@
 
 .Row {
     margin-bottom: 30px;
+    align-content: center;
 }
 
 .Row .Col-1 {
-    width: 420px;
+    width: 370px;
     height: 927px;
     margin-top: 10px;
     border-right: 1px solid #b9b5b5;
+}
+
+.Row .Col-1 img {
+    width: 330px;
+    height: auto;
 }
 
 .Row .Col-1 h6 {
@@ -63,7 +69,7 @@
 }
 
 .Row .col-2 {
-    width: 299px;
+    width: 250px;
     height: 927px;
     margin-top: 10px;
     border-right: 1px solid #b9b5b5;
@@ -76,6 +82,11 @@
     color: #898282;
     margin-top: 20px;
     margin-bottom: 10px;
+}
+
+.Row .col-2 .card-1 img {
+    width: 230px;
+    height: auto;
 }
 
 .Row .col-2 .card-1 h3 {
@@ -182,3 +193,101 @@
         margin-top: 20px;
     }
 }
+
+
+/* Common styles for all devices */
+.container-1 {
+    margin-top: 50px;
+}
+
+.container-1 .images {
+    height: 500px;
+    width: 1296px;
+}
+
+.Row {
+    margin-bottom: 30px;
+}
+
+/* Laptop media query */
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+    .Row {
+        margin-left: 20px;
+    }
+
+    .Row .Col-1 {
+        width: 200px;
+        /* Adjusted width for laptop */
+        height: 827px;
+        /* Adjusted height for laptop */
+        margin-top: 10px;
+        border-right: 1px solid #b9b5b5;
+    }
+
+    .Row .Col-1 img {
+        width: 250px;
+        height: auto;
+    }
+
+    .Row .Col-1 h3 {
+        font-size: 35px;
+        /* Adjusted font size for laptop */
+    }
+
+    .Row .col-2 {
+        width: 200px;
+        /* Adjusted width for laptop */
+        height: 827px;
+        /* Adjusted height for laptop */
+        margin-top: 10px;
+        border-right: 1px solid #b9b5b5;
+    }
+
+    .Row .col-2 .card-1 h3 {
+        font-size: 18px;
+        /* Adjusted font size for laptop */
+    }
+
+    .Row .col-2 .card-1 img {
+        width: 95%;
+        height: auto;
+        /* Adjusted font size for laptop */
+    }
+
+    .Row .col-3 {
+        width: 190px;
+        /* Adjusted width for laptop */
+        height: 694px;
+        /* Adjusted height for laptop */
+        margin-top: 10px;
+        margin-left: 10px;
+    }
+
+    .Row .col-3 .header {
+        width: 100%;
+    }
+
+    .Row .col-3 .header h3 {
+        font-size: 20px;
+        /* Adjusted font size for laptop */
+    }
+
+    .Row .col-3 .content {
+        width: 100%;
+        /* Adjusted width for laptop */
+        height: 120px;
+        /* Adjusted height for laptop */
+    }
+
+    .Row .col-3 .content h6 {
+        font-size: 12px;
+        /* Adjusted font size for laptop */
+    }
+
+    .Row .col-3 .content p {
+        font-size: 10px;
+        /* Adjusted font size for laptop */
+    }
+}
+
+/* Add more styles for other elements as needed */
