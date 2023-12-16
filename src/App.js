@@ -12,9 +12,7 @@ function App() {
       <Navbar/>
       <HomePage/>
       <Footer/>
-      <Routes>
-          <Route path = '/Contact' element ={<ContactUs/>} />
-        </Routes>
+      
     </div>
   );
 }

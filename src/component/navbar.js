@@ -20,16 +20,14 @@ function BasicExample() {
               <Nav.Link eventKey="link-1" style={{ color: 'black' }}>Single Post</Nav.Link>
             </Nav.Item>
             <NavDropdown title="Categories" id="basic-nav-dropdown" style={{ color: 'black' }}>
-              <NavDropdown.Item href="#" style={{ color: 'black' }}>Drop Down 1</NavDropdown.Item>
-              <NavDropdown.Item href="#" style={{ color: 'black' }}>Drop Down 2</NavDropdown.Item>
-              <NavDropdown.Item href="#" style={{ color: 'black' }}>Drop Down 3</NavDropdown.Item>
-              <NavDropdown.Item href="#" style={{ color: 'black' }}>Drop Down 4</NavDropdown.Item>
+              <NavDropdown.Item href="#" style={{ color: 'black' }}>Business</NavDropdown.Item>
+            
             </NavDropdown>
             <Nav.Item>
               <Nav.Link eventKey="link-3" style={{ color: 'black' }}>About</Nav.Link>
             </Nav.Item>
             <Nav.Item>
-              <Nav.Link eventKey="link-4" style={{ color: 'black' }}><Link to = {"Contact"}>Contact</Nav.Link>
+              <Nav.Link eventKey="link-4" style={{ color: 'black' }}>Contact</Nav.Link>
             </Nav.Item>
           </Nav>
         </Navbar.Collapse>
