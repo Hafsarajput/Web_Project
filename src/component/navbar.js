@@ -3,6 +3,7 @@ import Container from 'react-bootstrap/Container';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
 import NavDropdown from 'react-bootstrap/NavDropdown';
+import { Link } from 'react-router-dom';
 
 function BasicExample() {
   return (
@@ -28,7 +29,7 @@ function BasicExample() {
               <Nav.Link eventKey="link-3" style={{ color: 'black' }}>About</Nav.Link>
             </Nav.Item>
             <Nav.Item>
-              <Nav.Link eventKey="link-4" style={{ color: 'black' }}>Contact</Nav.Link>
+              <Nav.Link eventKey="link-4" style={{ color: 'black' }}><Link to = {"Contact"}>Contact</Nav.Link>
             </Nav.Item>
           </Nav>
         </Navbar.Collapse>

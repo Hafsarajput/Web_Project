@@ -9,12 +9,12 @@ import Footer from './component/footer';
 function App() {
   return (
     <div >
-      <Navbar />
-      <HomePage />
-      <ContactUs />
-      <Category />
-      <AboutUs />
+      <Navbar/>
+      <HomePage/>
       <Footer/>
+      <Routes>
+          <Route path = '/Contact' element ={<ContactUs/>} />
+        </Routes>
     </div>
   );
 }
