@@ -24,7 +24,7 @@ function BasicExample() {
             
             </NavDropdown>
             <Nav.Item>
-              <Nav.Link eventKey="link-3" style={{ color: 'black' }}>About</Nav.Link>
+              <Nav.Link eventKey="link-3" style={{ color: 'black' }}><Link to ={"/about"}>AboutUs</Link></Nav.Link>
             </Nav.Item>
             <Nav.Item>
               <Nav.Link eventKey="link-4" style={{ color: 'black' }}>Contact</Nav.Link>

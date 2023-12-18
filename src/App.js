@@ -6,13 +6,19 @@ import Category from './component/category';
 import AboutUs from './component/AboutUs';
 import HomePage from './component/HomePage';
 import Footer from './component/footer';
+import { Route, Routes } from 'react-router-dom';
 function App() {
   return (
     <div >
       <Navbar/>
       <HomePage/>
-      <Footer/>
+      <Category/>
       
+       <Routes>
+       
+      <Route path = {'/about'} element={<AboutUs/>} />
+      </Routes>
+      <Footer/>
     </div>
   );
 }

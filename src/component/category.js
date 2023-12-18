@@ -1,13 +1,17 @@
+import './Category.css'
 import React from 'react';
 import { Container, Row, Col } from 'react-bootstrap';
 import Image from './assets/images/cater.png';
 import Image2 from './assets/images/office.png';
 import Image3 from './assets/images/fm.png';
 import Image4 from './assets/images/free.png';
+import ListGroup from 'react-bootstrap/ListGroup';
+
 
 const ScreenDivision = () => {
   return (
-    <Container fluid>
+    <Container fluid className='contain' >
+
       <Row>
         <Col sm={6}>
           {/* First division */}
@@ -33,7 +37,7 @@ const ScreenDivision = () => {
             <Container>
         <Row className='align-items-center'>
           <Col xs={12} md={4}>
-            <img src={Image2} alt='' style={{ maxWidth: '300px', height: 'auto' }} />
+            <img src={Image2} alt='' style={{ maxWidth: '250px', height: 'auto' }} />
           </Col>
           <Col xs={12} md={8}>
             <p style={{ fontSize: '10px', marginBottom: '5px', paddingLeft:'100px' }}>CULTURE . Jul 5th '22</p>
@@ -48,7 +52,7 @@ const ScreenDivision = () => {
       <Container>
         <Row className='align-items-center'>
           <Col xs={12} md={4}>
-            <img src={Image3} alt='' style={{ maxWidth: '300px', height: 'auto' }} />
+            <img src={Image3} alt='' style={{ maxWidth: '250px', height: 'auto' }} />
           </Col>
           <Col xs={12} md={8}>
             <p style={{ fontSize: '10px', marginBottom: '5px', paddingLeft:'100px' }}>CULTURE . Jul 5th '22</p>
@@ -80,10 +84,64 @@ const ScreenDivision = () => {
         <Col sm={6}>
           <div style={{ height: '200px',   textAlign: 'right' , paddingTop:'20px' }}>
             {/* Division with three columns */}
-            <p><b><u>Popular</u></b></p>
+            
             
           </div>
         </Col>
+
+
+      </Row>
+
+      <Row>
+
+      
+                        <ListGroup className='col-3'>
+                            <ListGroup.Item className='header'>
+                                <h3>Trending</h3>
+                            </ListGroup.Item>
+                            <ListGroup.Item className='content'>
+                                <h6>The Best Homemade Masks
+                                    for Face (keep the Pimples
+                                    Away)</h6>
+
+                                <p>Jane Cooper</p>
+                            </ListGroup.Item>
+                            <ListGroup.Item className='content'>
+                                <h6>17 Pictures of Medium
+                                    Length Hair in Layers That
+                                    Will Inspire Your New
+                                    Haircut</h6>
+
+                                <p>Wade Warren</p>
+                            </ListGroup.Item>
+
+                            <ListGroup.Item className='content'>
+                                <h6>13 Amazing Poems from Shel
+                                    Silverstein with Valuable Life
+                                    Lessons</h6>
+
+                                <p>Esther Howard</p>
+                            </ListGroup.Item>
+
+                            <ListGroup.Item className='content'>
+                                <h6>9 Half-up/half-down
+                                    Hairstyles for Long and
+                                    Medium Hair</h6>
+
+                                <p>Cameron Williamson</p>
+                            </ListGroup.Item>
+
+                            <ListGroup.Item className='content'>
+                                <h6>Life Insurance And
+                                    Pregnancy: A Working
+                                    Mom’s Guide</h6>
+
+                                <p>Jenny Wilson</p>
+                            </ListGroup.Item>
+                        </ListGroup>
+                    
+  
+
       </Row>
     </Container>
   );
