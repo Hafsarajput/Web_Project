@@ -7,18 +7,23 @@ import AboutUs from './component/AboutUs';
 import HomePage from './component/HomePage';
 import Footer from './component/footer';
 import { Route, Routes } from 'react-router-dom';
+
+
 function App() {
   return (
     <div >
-      <Navbar/>
-      <HomePage/>
-      <Category/>
-      
-       <Routes>
-       
-      <Route path = {'/about'} element={<AboutUs/>} />
+      <Navbar />
+
+
+      <Routes>
+        <Route path={'/'} element={<HomePage />} />
+        <Route path={'/About'} element={<AboutUs />} />
+        <Route path={'/Contact'} element={<ContactUs />} />
+        <Route path={'/Category'} element={<Category />} />
+
       </Routes>
-      <Footer/>
+
+      <Footer />
     </div>
   );
 }

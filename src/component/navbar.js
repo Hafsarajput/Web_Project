@@ -14,20 +14,18 @@ function BasicExample() {
         <Navbar.Collapse id="basic-navbar-nav" className="justify-content-center">
           <Nav className="mr-auto" activeKey="/home">
             <Nav.Item>
-              <Nav.Link href="/home" style={{ color: 'black' }}>Blog</Nav.Link>
+              <Nav.Link ><Link style={{ color: 'black', textDecoration: 'none' }} to={"/"}>Home</Link></Nav.Link>
             </Nav.Item>
-            <Nav.Item>
-              <Nav.Link eventKey="link-1" style={{ color: 'black' }}>Single Post</Nav.Link>
-            </Nav.Item>
+
             <NavDropdown title="Categories" id="basic-nav-dropdown" style={{ color: 'black' }}>
-              <NavDropdown.Item href="#" style={{ color: 'black' }}>Business</NavDropdown.Item>
-            
+              <NavDropdown.Item ><Link style={{ color: 'black', textDecoration: 'none' }} to={"/Category"}>Business</Link></NavDropdown.Item>
+
             </NavDropdown>
             <Nav.Item>
-              <Nav.Link eventKey="link-3" style={{ color: 'black' }}><Link to ={"/about"}>AboutUs</Link></Nav.Link>
+              <Nav.Link ><Link style={{ color: 'black', textDecoration: 'none' }} to={"/about"}>AboutUs</Link></Nav.Link>
             </Nav.Item>
             <Nav.Item>
-              <Nav.Link eventKey="link-4" style={{ color: 'black' }}>Contact</Nav.Link>
+              <Nav.Link eventKey="link-4" ><Link style={{ color: 'black', textDecoration: 'none' }} to={"/Contact"}>ContactUs</Link></Nav.Link>
             </Nav.Item>
           </Nav>
         </Navbar.Collapse>

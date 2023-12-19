@@ -1,14 +1,13 @@
-.contain{
+.contain {
     display: flex;
 }
 
 
 .contain .col-3 {
     margin-right: 50px;
-    margin-top: 50px;
+    margin-top: 70px;
     width: 250px;
-    height: 794px;
-    margin-left: 10px;
+    height: 100%;
 }
 
 .contain .col-3 .header {
@@ -54,7 +53,11 @@
 
 
 @media (max-width: 767px) {
-    
+    .contain {
+        display: flex;
+        flex-direction: column;
+    }
+
     .contain .col-3 {
         width: 100%;
         /* Use full width on small screens */
@@ -85,19 +88,4 @@
         height: auto;
         margin-top: 20px;
     }
-}
-
-
-/* Common styles for all devices */
-.container-1 {
-    margin-top: 50px;
-}
-
-.container-1 .images {
-    height: 500px;
-    width: 1296px;
-}
-
-.Row {
-    margin-bottom: 30px;
 }
