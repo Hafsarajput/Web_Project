@@ -21,11 +21,9 @@ const App = () => {
           <h6 style={{ fontFamily: 'EB Garamond, serif', fontSize: '20px', marginBottom: '10px' }}>Navigations</h6>
       <ul style={{ listStyle: 'none', padding: 0 }}>
         <li style={{ marginBottom: '15px' }}>Home</li>
-        <li style={{ marginBottom: '15px' }}>Blog</li>
         <li style={{ marginBottom: '15px' }}>Categories</li>
-        <li style={{ marginBottom: '15px' }}>Single Post</li>
         <li style={{ marginBottom: '15px' }}>About Us</li>
-        <li style={{ marginBottom: '15px' }}>Contact</li>
+        <li style={{ marginBottom: '15px' }}>ContactUs</li>
       </ul>
           </Col>
           <Col xs={12} md={6} lg={3} style={{ padding: '0 20px' }}>
